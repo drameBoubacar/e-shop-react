@@ -29,6 +29,18 @@ span li {
 }
 #panier{
   text-align: center;
+  width: 13%;
+  background-color: lightgray;
+  color: white;
+  margin: auto;
+  border: 0.2em solid cadetblue;
+}
+#panier h4{
+  color:cadetblue;
+  font-weight: 900;
+}
+#panier p {
+  color: brown;
 }
 .btn-product{
   border:none;
