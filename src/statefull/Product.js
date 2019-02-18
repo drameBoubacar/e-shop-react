@@ -8,6 +8,7 @@ class Product extends Component {
         {this.props.product.map((product, i) =>{
           return (<span key={i}>
             <img src={`/assets/${product.img}`} className="img-style"></img>
+            <div className="line"></div>
             <ul className="list-container">
             <li className='list-item'><strong>Name : </strong>{product.name}</li>
             <li className='list-item'><strong>Price : </strong>{product.price + ' €'}</li>

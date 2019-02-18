@@ -4,13 +4,15 @@
 span {
   border : 4px solid;
   width : 18%;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
   text-align: center;
   color: white;
 }
 span li {
-  background-color: lightgray;  
+  color: cadetblue;
+  list-style: none;
   width: 52%;
+  padding: 4px 13px;
 }
 #product ul {
   display: flex;
@@ -18,12 +20,24 @@ span li {
   flex-wrap: wrap;
   padding: 0;
 }
+.line{
+  background-color: lightgrey;
+  height: 1%;
+}
 .img-style {
   height: 20vh;
 }
 #panier{
   text-align: center;
 }
-.list-container {
-  /* display: flex; */
+.btn-product{
+  border:none;
+  background-color: white;
+  border-radius:100%;
+  padding: 4% 7%;
+}
+
+.btn-product:hover{
+  background-color:cadetblue;
+  color: white;
 }
