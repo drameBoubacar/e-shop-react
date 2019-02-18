@@ -41,6 +41,7 @@ span li {
 }
 #panier p {
   color: brown;
+  font-weight: 900;
 }
 .btn-product{
   border:none;
