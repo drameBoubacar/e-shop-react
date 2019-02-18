@@ -27,11 +27,9 @@ class App extends Component {
       panier[product.id] = product
       panier[product.id].number = 1
     }
-    console.log(panier)
     this.setState({ panier })  
   }
   render() {
-    console.log('STATE', this.state.product)
     return (
       <div className="App">
         <Product product={this.state.product} addProduct={this.addProduct}/>

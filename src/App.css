@@ -10,7 +10,7 @@ span {
 }
 span li {
   background-color: lightgray;  
-  width: 50%;
+  width: 52%;
 }
 #product ul {
   display: flex;
@@ -20,4 +20,10 @@ span li {
 }
 .img-style {
   height: 20vh;
+}
+#panier{
+  text-align: center;
+}
+.list-container {
+  /* display: flex; */
 }

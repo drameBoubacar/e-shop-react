@@ -13,7 +13,7 @@ class Panier extends Component{
           {
              Object.values(this.props.panier).map( (product, i) => {
               return (                  
-                <li key={i}>
+                <li key={i} className="list-item">
                   {product.number + " : " + product.name + " - " + product.price + "$"}
                 </li>
               )
