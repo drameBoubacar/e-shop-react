@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Product from './statefull/Product';
 import './App.css';
 import api from './lib/mock';
 
@@ -19,7 +20,7 @@ class App extends Component {
     console.log('STATE', this.state.product)
     return (
       <div className="App">
-
+        <Product product={this.state.product}/>
       </div>
     );
   }
