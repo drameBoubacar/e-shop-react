@@ -45,12 +45,24 @@ span li {
 }
 .btn-product{
   border:none;
-  background-color: white;
-  border-radius:100%;
+  background-color: cadetblue;
+  color: white;
+  border-radius:50%;
   padding: 4% 7%;
 }
-
-.btn-product:hover{
-  background-color:cadetblue;
-  color: white;
+.btn-product:hover {
+  background-color: white;
+  color: cadetblue;
+  border: 1px solid cadetblue;
 }
+
+
+
+/* @media screen and (max-width: 768px){
+  #product ul {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+  }
+} */
