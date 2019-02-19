@@ -12,7 +12,6 @@ const NavBar = (props) => {
       <li className="list-item-nav"><i className="fas fa-shopping-cart fa-2x"></i> <p className="count-panier">{Object.values(props.panier).reduce((acc, num) => {
         return acc += num.number
       }, 0)}</p></li>
-      <p>Panier</p>
      
     </div>
   )
