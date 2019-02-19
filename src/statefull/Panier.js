@@ -8,7 +8,9 @@ class Panier extends Component{
         <p>Total : 
         { Object.values(this.props.panier).reduce((acc, panier) => {
           return acc + panier.price * panier.number
-        }, 0)}</p> 
+        }, 0)
+        }
+        </p> 
         <ul>
           {
              Object.values(this.props.panier).map( (product, i) => {
