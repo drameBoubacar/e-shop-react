@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Product from './statefull/Product';
 import Panier from './statefull/Panier';
 import NavBar from './stateless/NavBar';
-// import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import api from './lib/mock';
 import './App.css';
 
@@ -35,17 +35,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <NavBar panier={this.state.panier}/> */}
+        <NavBar panier={this.state.panier}/>
         <Product product={this.state.product} addProduct={this.addProduct}/>
         <Panier panier={this.state.panier}/>
-        {/* <Router>
+        {/* <Router> */}
           <div>
-            <Switch>
-              <Route exact path="" */}
-      {/* //       </Switch> */}
+            {/* <Switch>
+              <Route exact path="/product"/>
+             </Switch>  */}
+             {/* <li><Link to="/product" >product</Link></li> */}
           </div>
-      //   </Router>
-      // </div>
+         {/* </Router> */}
+       </div>
 
     );
   }
