@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Product from './statefull/Product';
 import Panier from './statefull/Panier';
 import NavBar from './stateless/NavBar';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+// import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import api from './lib/mock';
 import './App.css';
 
